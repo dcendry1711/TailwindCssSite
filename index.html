@@ -12,14 +12,14 @@
             <section >
                 <svg class="w-10 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.56 162.44" xmlns:v="https://vecta.io/nano" fill="white"><path d="M88.94 119.91v42.53H75.4V92.17c-26.58.24-47.78-9.8-62.83-31.49C.01 42.59-.81 21.91.41.47 20.12-.94 39.07.28 56.17 11.7c16.82 11.23 26.68 27.1 31.55 47.46 10.5-14.19 22.98-24.84 39.54-28.46 11.82-2.59 24.14-2.93 36.15-4.26 6.86 44.12-17.09 92.51-74.47 93.48zM14.33 14.31C12.4 48.23 36.69 81.49 75.09 77.17c1.17-36.65-25.68-64.07-60.76-62.86zm75.07 90.8c37.04.92 61.67-25.55 60.93-63.1-32.53-4.75-62.82 26.43-60.93 63.1z"/></svg>
             </section>
-            <nav>
+            <nav class="text-center font-bold font-mono">
                 <a class="text-white" href="#">Blog</a>
                 <a class="text-white" href="#">Contact</a>
             </nav>
         </header>
 
         <main>
-            <h2>Blog</h2>
+            <h2 class="text-center text-3xl uppercase my-8 font-black font-mono">Blog</h2>
             
             <!-- CARD CONTAINER -->
             <section>
@@ -29,25 +29,25 @@
                     <img class="w-full mx-auto" src="img/post_houseplants.jpg" alt="Houseplants with Attitudes"/>
                     
                     <!-- CARD CONTENT -->
-                    <section class="bg-sky-100 p-4">
+                    <section class="bg-gray-100 p-4">
                         
                         <!-- CARD HEADER -->
                         <section>
                             <section>
                                 <section>
                                     <img class="w-8" src="img/author_fern.jpg" alt="Fern Greenleaf" />
-                                    <span>Fern Greenleaf</span>
+                                    <span class="text-xs text-sky-700">Fern Greenleaf</span>
                                 </section>
                                 <svg height="20px" viewBox="0 -960 960 960" width="20px"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
-                                <!-- <span>More options</span> -->
+                                <span class="font-semibold">More options</span>
                             </section>
                         </section>
                         <!-- CARD HEADER END -->
                         
                         <!-- CARD BODY -->
                         <section>
-                            <h2>Houseplants with Attitude: Meet the Divas of Your Living Room</h2>
-                            <p>
+                            <h2 class="my-3 text-sky-700 text-xl font-semibold leading-7">Houseplants with Attitude: Meet the Divas of Your Living Room</h2>
+                            <p class="my-3 line-clamp-3 leading-6 font-medium">
                                 If you thought your Monstera was just sitting quietly in the corner, think again! These houseplants are full of sass, drama, and demands. From diva-like Calatheas that throw a tantrum if you mist them wrong to ferns that seem to love dying for attention, we’re here to introduce you to the plant kingdom’s most dramatic members. 
                             </p>
                         </section>
@@ -77,14 +77,14 @@
 
         <footer class="bg-sky-900 p-4">
             <!-- FOOTER CONTENT -->
-            <section class="text-white">
-                <h3>Subscribe</h3>
-                <p>Want to get notified when a new blog post is up? Sign up for the newsletter and never miss out!</p>
-                <form>
-                    <input class="bg-white text-gray-600" type="email" placeholder="email@example.com"/>
-                    <input type="submit" value="Sign Up"/>
+            <section class="text-white text-center">
+                <h3 class="font-mono uppercase font-bold">Subscribe</h3>
+                <p class="my-3 font-medium">Want to get notified when a new blog post is up? Sign up for the newsletter and never miss out!</p>
+                <form class="my-3">
+                    <input class="bg-white text-gray-600 text-center p-1" type="email" placeholder="email@example.com"/>
+                    <input class="text-center bg-gray-400 p-1" type="submit" value="Sign Up"/>
                 </form>
-                <span>&copy; Fluffy McDuck</span>
+                <span class="font-mono font-bold text-xs py-3">&copy; Fluffy McDuck</span>
             </section>
         </footer>
         <!-- FOOTER CONTENT END -->
